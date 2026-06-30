@@ -1,12 +1,11 @@
-# **AstraQuarkX**
-## **Photon Code**
-# Master C in 30 Days
+# **AstraQuarkX - Photon Code**
+## Master C in 30 Days
 
 Welcome to the official source code repository for the **Learn C Programming | Photon Code** YouTube series by **AstraQuarkX**.
 
 This repository contains all the C programs demonstrated throughout the course. Each lesson's source code is added as a separate file, making it easy to follow along with the videos.
 
-## Repository Structure
+### Repository Structure
 
 ```
 .
@@ -16,12 +15,12 @@ This repository contains all the C programs demonstrated throughout the course. 
 ├── ...
 ```
 
-## Requirements
+### Requirements
 
 - Visual Studio Code
 - GCC Compiler (MSYS2 / MinGW-w64)
 
-## Getting Started
+### Getting Started
 
 Compile any program using GCC:
 
@@ -32,11 +31,11 @@ gcc filename.c -o program
 
 Replace `filename.c` with the file you want to run.
 
-## YouTube Course
+### YouTube Course
 
 Follow the complete **Learn C Programming | Photon Code** playlist on the AstraQuarkX YouTube channel.
 https://www.youtube.com/playlist?list=PLfyLKOynoIFU
 
-## License
+### License
 
 This repository is provided for educational purposes.

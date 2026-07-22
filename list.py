@@ -14,3 +14,18 @@ popped_value = brand.pop(1)   # popped_val = list.pop(index) {pop() returns the 
 brand.remove('x')  # list.remove(value)
      # brand = ['Astra',3,4,5,'y']
      # It removes only the first occurrence of the value
+
+# Sorting a List : 
+num = [3,4,2,8,1,9] 
+num.sort()  # num = [1,2,3,4,8,9] 
+            # Sorts permanently 
+            # Numbers in increasing order and words in alphabetical order
+num.sort(reverse = True)  # num = [9,8,4,3,2,1]
+num2 = sorted(num)  # sorted(list) returns the sorted list, doesn't change the original one
+num3 = sorted(num, reverse = True)
+
+# Reversing a List : 
+num.reverse()  # Reverses the original list
+num4 = num[::-1]  # Creates a new list num4 with elements of list num in reverse order 
+
+print(len(num))  # len(list) returns the number of elements in the list

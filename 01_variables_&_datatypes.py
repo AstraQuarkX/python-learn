@@ -10,7 +10,7 @@ print("Hello \tWorld")     # Insert Tab Space (4 Spaces)
 print("Hello \\ World")    # \\ inserts \ : Hello \ World
 print("\'Hello World\'")   # \' inserts ' : 'Hello World'
 print("\"Hello World\"")   # \" inserts " : "Hello World"
-# DOUBT print("Hello\rWorld")
+print("Hello\rWorld")
 print("Hello\bWorld")      # Backspace - Deletes 'o'
 
 # Stripping Whitespace from Strings :

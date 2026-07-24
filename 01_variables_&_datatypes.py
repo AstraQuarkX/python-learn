@@ -10,8 +10,11 @@ print("Hello \tWorld")     # Insert Tab Space (4 Spaces)
 print("Hello \\ World")    # \\ inserts \ : Hello \ World
 print("\'Hello World\'")   # \' inserts ' : 'Hello World'
 print("\"Hello World\"")   # \" inserts " : "Hello World"
-print("Hello\rWorld")
 print("Hello\bWorld")      # Backspace - Deletes 'o'
+print("Hello hello\rWorld")      #>>> World hello
+  # Cursor goes to the start of the line. The text after it, 'World', overwrites the original text and replaces 'Hello'.
+  # \r moves the cursor to the beginning of the current line without going to a new line.
+  # Any text printed after \r overwrites the existing text on that line.
 
 # Stripping Whitespace from Strings :
 print(name.rstrip())       # Removes the whitespace from right end temporarily 

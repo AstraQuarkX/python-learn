@@ -20,3 +20,24 @@ print("Hello hello\rWorld")      #>>> World hello
 print(name.rstrip())       # Removes the whitespace from right end temporarily 
 print(name.lstrip())       # Removes the whitespace from left end temporarily 
 print(name.strip())        # Removes the whitespace from both ends temporarily 
+
+# Printing Variables :
+  # Basic Print :
+    a = "World!"
+    print("Hello ",a)
+  # Formatted Strings (F-Strings) :
+    a = "World"
+    b = 1
+    print(f"Hello {a} {b}")
+  # .format() Method :
+    a = "Hello"
+    b = "World"
+    c = "Astra"
+    d = "Quark X"
+    print("{} {} , {name1} {name2}!".format(a,b,name1 = c,name2 = d))
+  # % Formatting :
+    name = "AstraQuarkX"
+    year = 2026
+    version = 1.0
+    print("Hello, %s \nYear = %d %i \nVersion = %.1f" % (name,year,year,version))
+

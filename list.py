@@ -37,12 +37,16 @@ Max_Value = max(digits)         # Max_Value = 100
 Sum_of_Values = sum(digits)     # Sum_of_Values = 133
 
 # List Comprehensions : 
- ## Normal Method :
-  squares = []
-  for i in range(1,10):
-       squares.append(i**2)
- ## List Comprehension Method (One Line) :
-  squares = [i**2 for i in range(1,10)]
+  # Normal Method :
+     squares = []
+     for i in range(1,10):
+         squares.append(i**2)
+  # List Comprehension Method (One Line) :
+     squares = [i**2 for i in range(1,10)]
+  # Normal Method : 
+     numbers = [2,4,6,8]
+  # List Comprehension Method :
+     numbers = list(range(2,9,2))
 
 # Slicing a List : 
  # Creates a new list
